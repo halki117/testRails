@@ -1,0 +1,29 @@
+.header{
+  width: 100%;
+  height: 100px;
+  background-color: skyblue;
+}
+
+.contents{
+  display: flex;
+  .tasks{
+    width: 50%;
+    height: 100vh;
+    border: ridge;
+  }
+  .todos{
+    width: 50%;
+    .monthly{
+      height: calc(100% / 3) ;
+      border: ridge;
+    }
+    .weekly{
+      height: calc(100% / 3) ;
+      border: ridge;
+    }
+    .daily{
+      height: calc(100% / 3) ;
+      border: ridge;
+    }
+  }
+}

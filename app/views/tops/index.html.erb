@@ -1,0 +1,19 @@
+<div>
+  <div class="header">
+    
+    <h1>タイトル</h1>
+  </div>
+  <div class="contents">
+    <div class="tasks">
+      <p>思いついたタスク</p>
+      <% @posts.each do |post| %>
+      <%= post.contents %>
+      <% end %>
+    </div>
+    <div class="todos">
+      <div class="monthly">月間</div>
+      <div class="weekly">週間</div>
+      <div class="daily">その日</div>
+    </div>
+  </div>
+</div>
